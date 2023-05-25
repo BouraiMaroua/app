@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:orientation="horizontal"
+    android:background="#F1E47D">
+    <ImageView
+        android:id="@+id/img_histoire"
+        android:layout_width="140dp"
+        android:layout_height="120dp"
+        android:src="@drawable/capt0" />
+    <TextView
+        android:id="@+id/titre_histoire"
+        android:layout_width="210dp"
+        android:layout_height="match_parent"
+        android:text="titre"
+        android:gravity="center"
+        android:textStyle="italic"
+        android:textSize="24dp"
+        android:textColor="#1970B6"
+        android:background="@color/white"
+
+        />
+    <ImageButton
+        android:id="@+id/ib_histoire"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:src="@drawable/ic_favoris_foreground"
+        android:background="@color/white"
+        android:layout_gravity="center"/>
+</LinearLayout>
